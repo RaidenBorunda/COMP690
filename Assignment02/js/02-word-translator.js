@@ -1,4 +1,4 @@
-let userLanguagePrompt = prompt('Please enter one of the following: es, de, en, or fr')
+let userLanguagePrompt = prompt('Please enter one of the following: es, de, en, or fr:')
 switch (userLanguagePrompt) {
     case 'es':
         console.log('Hello World in Spanish is: Hola Mundo!')
