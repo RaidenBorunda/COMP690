@@ -4,16 +4,14 @@
 //Use a conditional statement to check the result of the coin flip. If it’s 0, write out “Heads” into the console window. If it’s 1, write out “Tails” into the console window.
 
 let coinFlip
-let playAgain = "y"
-do {
+let playCount = parseInt(prompt("How many coins would you like to flip?"))
+for(let i = 1; i <= playCount; i++){
     let randomNum = Math.round(Math.random())
     coinFlip = randomNum
-    
-    if (coinFlip == 0) {
-        console.log("Heads")
-    } else {console.log("Tails")}
 
-    playAgain = prompt("Would you like to play again? (y or n)")
-} while (playAgain == "y");
+    if (coinFlip == 0){
+        console.log("Heads");
+    } else (console.log("Tails"));
+}
 
 
