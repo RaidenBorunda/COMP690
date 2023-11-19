@@ -1,4 +1,5 @@
 // CREATE AN ARRAY OF EMPLOYEES
+
 if (localStorage.getItem('employees') !== null) {
     // Storage object exists
     // Retrieve the object from storage
@@ -51,6 +52,7 @@ if (localStorage.getItem('employees') !== null) {
 
 // GET DOM ELEMENTS
 const $ = (id) => document.getElementById(id)
+$('id').focus()
 let form = document.getElementById('addForm')
 let table = document.getElementById('empTable')
 let tbody = table.getElementsByTagName('tbody')[0]
@@ -191,4 +193,5 @@ function buildGrid() {
     }
     
     document.body.append(table);
+    $('id').focus()
 }
