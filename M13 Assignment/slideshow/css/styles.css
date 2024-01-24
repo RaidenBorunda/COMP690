@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#slideshow-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+}
+
+#controls {
+  text-align: center;
+}
+
+#play_pause, #set_speed {
+  margin-right: 10px;
+}
